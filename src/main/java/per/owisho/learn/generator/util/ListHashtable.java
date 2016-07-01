@@ -122,7 +122,7 @@ public class ListHashtable extends Hashtable {
 		}
 	}
 
-	private Object getOrderedValue(int i) {
+	public Object getOrderedValue(int i) {
 		return super.get(getOrderKey(i));
 	}
 
